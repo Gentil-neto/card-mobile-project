@@ -14,6 +14,16 @@
     font-family: "Roboto-Bold";
 }
 
+@font-face {
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-family: "Roboto-Bold";
+}
+
+@font-face {
+    src: url(../fonts/black_phantom/BlackPhantomItalicPERSONALUSEONLY.otf);
+    font-family: "black_phantom";
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -202,7 +212,9 @@ header i {
     text-align: center;
     align-items: center;
     /* margin-bottom: 20px; */
-    padding-bottom: 90px;
+    padding-bottom: 90px;    
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .menu-Item{
@@ -425,6 +437,8 @@ nav a:hover {
     height: 360px;
     padding: 20px;
         border-radius: 20px;
+
+        
     }
 
     footer{
@@ -435,8 +449,14 @@ nav a:hover {
     }
 
     #ass{
-        margin-left: 710px;
+        margin: auto;
+        /* background-color: #00A5DD; */
+        color: black;
+        font-family: black_phantom;
+        font-size: 50px;
     }
+
+  
 
 
 }
